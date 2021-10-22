@@ -4,12 +4,12 @@ Setup below infra using IAC tool(Terraform)
 
 Note:
 In common variable file replace:
-"<networkcompartid>"
-"<computecompartmentid>"
+"networkcompartid"
+"computecompartmentid"
 
 Generate ssh-key by following:
 https://blogs.oracle.com/linux/post/creating-an-ssh-key-pair-on-the-linux-command-line-for-oci-access
-and replace "<Publickey>" in main.tf. Make sure you do not publish you public&Private keys in repo.
+and replace "Publickey" in main.tf. Make sure you do not publish you public&Private keys in repo.
 
 Steps for provisioning:
 1. Open OCI cli command interface
