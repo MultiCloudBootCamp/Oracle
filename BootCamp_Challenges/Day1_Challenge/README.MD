@@ -1,6 +1,6 @@
 Setup below infra using IAC tool(Terraform)
 
-[![Image]
+[![Image](https://github.com/MultiCloudBootCamp/Oracle/tree/main/BootCamp_Challenges/Day1_Challenge/images/SolutionArchitect_Design.png)
 
 Note:
 In common variable file replace:
