@@ -1,5 +1,5 @@
 variable "NetworkCompartment" {
-    default = "<networkcompartid>"
+    default = "<networkCompartmentId>"
     type = string
     description = "Network Compartment" 
     sensitive = true   

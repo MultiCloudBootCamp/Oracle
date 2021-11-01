@@ -1,6 +1,6 @@
 ## Setup below infra using IAC tool(Terraform)
 
-[![Image](https://github.com/MultiCloudBootCamp/Oracle/tree/main/BootCamp_Challenges/Day1_Challenge/images/SolutionArchitect_Design.png)](https://github.com/MultiCloudBootCamp/Oracle/tree/main/BootCamp_Challenges/Day1_Challenge/images/SolutionArchitect_Design.png)
+[![Image](https://github.com/MultiCloudBootCamp/Oracle/tree/main/BootCamp_Challenges/Day1/images/SolutionArchitect_Design.png)]
 
 ## Pre-requisites:
 
@@ -9,11 +9,12 @@
   and replace "Publickey" in main.tf.Make sure you do not publish public&Private keys in repo.
 
 - In common variable file replace:
-   "networkcompartid"
-   "computecompartmentid"
+  - "networkCompartmentId"
+  - "computecompartmentid"
 
 
 ## Infra Provisioning Steps:
+
 1. Open OCI cli command interface
 2. Upload main.tf and common_variables.tf in oci cli.
 3. Execute below terraform commands:
