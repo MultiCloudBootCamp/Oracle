@@ -1,12 +1,12 @@
 variable "NetworkCompartment" {
-    default = "ocid1.compartment.oc1..aaaaaaaascut6thjtid6vt2mrlflbahbdf526ic7zfrcciakmleryxigt3vq"
+    default = "<networkCompartmentId>"
     type = string
     description = "Network Compartment" 
     sensitive = true   
   
 }
 variable "ComputeCompartment" {
-    default = "ocid1.compartment.oc1..aaaaaaaaeokbnjqonexonv3aa5abchgydti6ydwj6zqycjmz4n4riohaeq2a"
+    default = "<computecompartmentid>"
     type = string
     description = "Network Compartment" 
     sensitive = true   
